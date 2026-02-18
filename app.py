@@ -12,7 +12,7 @@ from openpyxl.styles import numbers
 st.set_page_config(page_title="XML2Excel", layout="centered")
 
 st.title("XML2Excel")
-st.caption("Last opp XML-startliste fra EQ Timing. Få tilbake KES-vennlig Excel.")
+st.caption("Last opp XML-startliste fra EQ Timing. Få tilbake KES-vennlig Excel. By Espen at Geilo IL.")
 
 uploaded = st.file_uploader("Last opp XML-fil", type=["xml"])
 
