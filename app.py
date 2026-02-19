@@ -128,3 +128,13 @@ if uploaded:
         "startliste_export.xlsx",
         mime="application/vnd.openxmlformats-officedocument.spreadsheetml.sheet"
     )
+st.divider()
+st.subheader("Manualer")
+
+st.markdown(
+    """
+    📘 [Last ned KES-manual (PDF)](https://jottacloud.com/s/395dd442cd79c9744f89a95857f25f0a165)
+
+    📗 [Last ned KES opppsett --> EQTiming (PDF)](https://jottacloud.com/s/395a3e1e1eeb52e4e3d8756cde717634a82)
+    """
+)
